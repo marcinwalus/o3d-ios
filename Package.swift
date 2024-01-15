@@ -10,6 +10,7 @@ let package = Package(
         .library(
             name: "Open3D-iOS",
             targets: [
+                "LinkOpen3D",
                 "Assimp",
                 "Faiss",
                 "IrrXML",
